@@ -1,5 +1,5 @@
 import React from "react";
-import { logoLight, paymentLogo } from "../assets";
+import { logoDark, paymentLogo } from "../assets";
 import { ImGithub } from "react-icons/im";
 import {
   FaFacebookF,
@@ -20,7 +20,7 @@ const Footer = () => {
     <div className="bg-black text-[#949494] py-20 font-titleFont">
       <div className="max-w-screen-xl mx-auto grid grid-cols-4">
         <div className="flex flex-col gap-5">
-          <img className="w-16" src={logoLight} alt="logoLight" />
+          <img className="w-16 h-16 rounded-full" src={logoDark} alt="logoLight" />
           <p className="text-white text-sm tracking-wide">© ICTwithVIMU</p>
           <img className="w-24" src={paymentLogo} alt="paymentLogo" />
           <div className="flex gap-5 text-lg text-gray-400">
